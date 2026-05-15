@@ -1,0 +1,3 @@
+Agregué a mi clase abstracta el método concreto llamado iniciarCicloOperativo. Este método es un Template Method porque define una secuencia de pasos fija: primero inicia sistemas, luego ejecuta la misión específica de la nave y finalmente calcula el consumo de energía.
+
+Diseñé este método así para asegurar que todas las naves sigan el mismo protocolo de encendido y gasto de combustible. La ventaja de este diseño sobre delegar la lógica a cada hija es que evité repetir el código de cálculo de energía en tres archivos distintos y garantice que ninguna nave pueda realizar una misión sin antes haber encendido sus sistemas.
