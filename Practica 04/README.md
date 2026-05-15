@@ -1,0 +1,5 @@
+La herencia tiene sentido en este dominio porque todas las naves espaciales comparten características básicas como un nombre y un nivel de energía. Sin embargo cada tipo de nave tiene funciones muy distintas. Usar herencia permite definir el comportamiento general una sola vez en la clase padre y luego especializar cada nave hija sin repetir código.
+
+Identifiqué un problema potencial de diseño conocido como la fragilidad de la clase padre. Si en el futuro decido cambiar el método de activación de sistemas en la clase base podría afectar por accidente a todas las naves hijas de forma inesperada.
+
+Para mitigar esto decidí que cada clase hija use la instrucción super de forma estratégica. Así me aseguro de que se ejecute la lógica general de la base pero permito que cada nave añada su propia configuración específica. Esto mantiene el control sobre qué partes del código se heredan y cuáles se personalizan totalmente.
