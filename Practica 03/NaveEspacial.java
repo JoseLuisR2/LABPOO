@@ -25,7 +25,7 @@ public class NaveEspacial {
             System.out.println("Error de registro: El nombre de la nave debe ser descriptivo y mayor a 2 caracteres.");
         }
     }
-
+    // Validaciones de seguridad
     public int getTripulantes() {
         return tripulantes;
     }
