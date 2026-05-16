@@ -1,0 +1,1 @@
+Implementé una operación de filtrado compuesta que busca naves con potencia superior a 500 y combustible menor a 30%. Esta consulta es relevante porque identifica naves en "Estado Crítico": naves pesadas que están a punto de quedar varadas, permitiendo priorizar su rescate en el simulador.

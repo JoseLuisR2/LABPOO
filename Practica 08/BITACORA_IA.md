@@ -1,0 +1,6 @@
+En esta sesión utilicé la IA para seleccionar las estructuras de datos más eficientes para cada tarea. El desafío fue pasar de guardar datos simples a gestionar 15 registros de forma organizada. Aprendí a usar Streams para limpiar el código de filtros complejos y a implementar comparadores que permiten ordenar la flota por diferentes criterios sin modificar la clase original.
+
+Mi consulta con la IA se centró en cómo realizar búsquedas rápidas y cómo filtrar datos usando criterios múltiples. Discutimos la diferencia entre usar un iterador manual y usar Streams, concluyendo que los Streams hacen el código más moderno y fácil de mantener. También aprendí a implementar la interfaz Comparable para que mis naves tengan un orden natural por ID desde su creación.
+
+Ajustes realizados
+Decidí usar un iterador en el método de eliminación para evitar errores de modificación concurrente. También cambié el filtro de Streams para que fuera una consulta compuesta, uniendo dos condiciones lógicas para simular un sistema de alerta real en la flota.
