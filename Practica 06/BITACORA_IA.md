@@ -1,0 +1,7 @@
+En esta sesión profundicé en el uso de interfaces como bloques de construcción modulares. Pasé de ver las interfaces como un simple "reglamento" a utilizarlas como herramientas de diseño para otorgar múltiples responsabilidades a una sola clase. La IA me ayudó a entender cómo estructurar estas capacidades para que no chocaran entre sí y cómo gestionar una flota donde no todos los objetos comparten las mismas habilidades.
+
+Mi consulta con la IA se enfocó en cómo otorgar habilidades variadas a mis clases sin llenar la clase padre de métodos que no todas las naves usarían. Discutimos la ventaja de usar interfaces independientes para cada rol técnico y cómo esto permitía que mis naves híbridas tuvieran comportamientos de combate y ciencia simultáneamente. La IA me guio en la creación de los archivos individuales para cada interfaz y me enseñó a realizar conversiones seguras para acceder a las funciones específicas de cada módulo desde mi gestor de flota.
+
+Ajustes realizados
+
+Decidí que la clase NaveHibrida no implementara la interfaz Volable para representar una estación pesada de órbita fija. Esto me obligó a mejorar mi lógica en el programa principal para que el código no intentara ejecutar el despegue en objetos que no tienen esa capacidad, logrando un sistema mucho más realista y robusto.
