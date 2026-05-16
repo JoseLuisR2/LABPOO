@@ -1,0 +1,3 @@
+Diseñé la clase SistemaCriticoException para que incluya información técnica adicional más allá del simple mensaje de error. Esta excepción captura automáticamente un timestamp y un código de error interno.
+
+En un sistema real, esta información es vital porque permite a los ingenieros saber exactamente en qué momento falló la nave y cruzar ese dato con otros sensores. El código de error permite clasificar la gravedad de la falla de forma automática sin tener que leer líneas de texto manuales.
