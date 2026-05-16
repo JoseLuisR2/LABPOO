@@ -12,12 +12,12 @@ public class NaveRegistro implements Serializable {
         this.potencia = potencia;
     }
 
+    public String toJSON() {
+        return "  {\n    \"id\": \"" + id + "\",\n    \"tipo\": \"" + tipo + "\",\n    \"potencia\": " + potencia + "\n  }";
+    }
+
     @Override
     public String toString() {
         return id + "," + tipo + "," + potencia;
-    }
-
-    public String toJSON() {
-        return "  {\n    \"id\": \"" + id + "\",\n    \"tipo\": \"" + tipo + "\",\n    \"potencia\": " + potencia + "\n  }";
     }
 }
