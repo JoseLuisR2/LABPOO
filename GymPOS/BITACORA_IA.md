@@ -1,0 +1,10 @@
+1. Descripción del Uso
+   El desarrollo de este Proyecto Integrador contó con el soporte de la IA como consultor arquitectónico y técnico. El enfoque principal se centró en la transición de un esquema de archivos dispersos hacia una estructura profesional basada en el patrón de diseño MVC. Mediante la carga y análisis de capturas de pantalla del entorno de desarrollo, se validó en tiempo real que la jerarquía de paquetes (model, view, controller, util, exception) cumpliera con los estándares de la industria y los requisitos académicos de la materia de Programación Orientada a Objetos.
+
+
+2. Metodología de Integración Estructural
+   Uno de los puntos críticos documentados en esta bitácora fue la resolución de conflictos en la visibilidad de clases y la configuración del archivo module-info.java. Debido a la complejidad de las librerías de JavaFX, la IA asistió en la simplificación del proyecto mediante la eliminación de módulos restrictivos y la implementación de VM Options personalizadas. Este proceso se verificó mediante auditorías visuales de la estructura del proyecto en el explorador de archivos de IntelliJ, asegurando que cada una de las 15 clases estuviera ubicada en su paquete correspondiente y que las referencias de import entre capas (especialmente entre la Vista y el Controlador) no presentaran ciclos de dependencia ni errores de acceso.
+
+
+3. Implementación de Pilares POO y Persistencia
+   La IA colaboró en la implementación técnica de la Herencia y el Polimorfismo dentro del paquete model, diseñando la clase abstracta Membresia y sus derivados para el cálculo de costos. Asimismo, se integró un sistema de persistencia de datos robusto utilizando la interfaz Serializable. La bitácora registra que el sistema de lealtad y la base de datos inicial de 20 registros fueron generados mediante scripts supervisados por IA, garantizando que el archivo binario clientes.dat fuera compatible con el GymController. Finalmente, se validó la ejecución de tareas asíncronas mediante Threads para la generación de reportes, cumpliendo así con la totalidad de la rúbrica técnica del PIA.
