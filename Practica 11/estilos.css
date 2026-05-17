@@ -1,0 +1,11 @@
+.root {
+    -fx-background-color: #0f3460;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-background-color: #16213e;
+}
